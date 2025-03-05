@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading"><span style="color: aqua;">Orsu</span> Likhita priya</h2>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#header">
+                              Home
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#Portfolio">
+                              Portfolio
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+                              About
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">
+                              Contact Me
+                          </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="header">
+        <div class="header-text">
+            <h1>Hi, I'm <span style="color: aqua;">Orsu LIkhita Priya</span><br> Web Developer</h1>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image4.jpg"">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"><span style="color: aqua;"> About Me</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi consectetur ex natus aperiam tempora perferendis et assumenda id quod asperiores!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quos incidunt asperiores ipsum veritatis. Iusto consequatur ea unde iure qui voluptate pariatur enim, perferendis quia deserunt explicabo odio nam atque.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ducimus dolorem obcaecati, repellendus ipsam voluptas labore vitae possimus harum nostrum!
+                    </p>
+                    <div class="tab-tables">
+                        <p class="tab-link" onclick="opentab('skills')"><span style="color: aqua;">Skills</span></p>
+                    </div>
+                    <div class="tab-content" id="skills">
+                        <ul>
+                            <li>Web Development</li>
+                            <li>DataScience</li>
+                            <li>programming Languages</li>
+                        </ul>
+                    </div>
+                    <div class="tab-tables">
+                        <p class="tab-link" onclick="opentab('education')"><span style="color: aqua;">Education</span></p>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li>SSC from Bhashyam</li>
+                            <li>Intermediate from Sri bhavishya</li>
+                            <li>currently persuing BTech 2nd Year in Vignans Lara</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Portfolio">
+        <div class="container-1">
+            <h1 class="sub-title"><span style="color: aqua;">My Work</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.png" >
+                    <div class="layer">
+                        <h3>Hotel website</h3>
+                        <p> The hotel wedsite is constructed using HTML,CSS and BOOTSTRAP</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.png">
+                    <div class="layer">
+                        <h3>Flats website</h3>
+                        <p> The Flats sale wedsite is constructed using HTML and CSS</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.png">
+                    <div class="layer">
+                        <h3>company website</h3>
+                        <p> The first page of company wedsite is constructed using HTML and CSS.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container-2">
+            <div class="row">
+             
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container-3">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>example@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>1234567890</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="your name">
+                        <input type="email" name="email" placeholder="your email">
+                        <textarea name="Message" row="10" placeholder="your message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p> @ Orsu Likhita priya 2025</p>
+    </footer>
+    <script>
+        var tablink=document.getElementsByClassName("tab-link")
+        var tabcontent=document.getElementsByClassName("tab-content")
+        function opentab(){
+            if(tablink==tabcontent('skills')){
+               document.getElementById('education')
+            }else{
+                document.getElementById('skills')
+            }
+        }
+    </script>
+</body>
+</html>
